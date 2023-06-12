@@ -242,12 +242,15 @@ public class GameLogic : MonoBehaviour
     
     
     public Button[] captchaButtons;
+
+    public ButtonColor[] captchaButtonList;
+    
     public GameObject[] passwordAnswersOne;
     public GameObject[] passwordAnswersTwo;
     public GameObject[] passwordAnswersThree;
 
 
-    
+
     /// Methods and Logic
 
 
@@ -1006,6 +1009,11 @@ public class GameLogic : MonoBehaviour
         }
         else
         {
+            foreach (var i in captchaButtonList)
+            {
+                i.gameObject.GetComponent<ButtonColor>().isPressed = false;
+            }
+            
             StartCoroutine(CaptchaAccessDenied());
         }
     }
@@ -1496,6 +1504,7 @@ public class GameLogic : MonoBehaviour
         {
             button.GetComponent<Image>().DOColor(Color.white, 1f);
         }
+
 
         rightCaptchaAnswers = 0;
         wrongCaptchaAnswers = 0;

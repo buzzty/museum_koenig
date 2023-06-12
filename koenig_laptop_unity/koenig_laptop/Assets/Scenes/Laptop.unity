@@ -186,7 +186,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 74af3a86c8f753648808df58e9bbbe2e, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7acba3c8d9ba9f242864ae8dcd5187f3, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -2221,7 +2221,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 749.815, y: -437}
+  m_AnchoredPosition: {x: 749.815, y: -438}
   m_SizeDelta: {x: 1468, y: 874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &90051992
@@ -2860,7 +2860,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 749.815, y: -1321}
+  m_AnchoredPosition: {x: 749.815, y: -1312}
   m_SizeDelta: {x: 1468, y: 874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &104529158
@@ -2883,7 +2883,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7751a6c9d7a13c941b5035ce9db66bbb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 7c1094baa9c39314eaad05735549a321, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -3593,7 +3593,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 25c826ce39cf0734db44300ab7c31662, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 70fd9e9d30e460949bc56ecc9b061689, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5110,7 +5110,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 562.955, y: -351.93185}
+  m_AnchoredPosition: {x: 0.99993896, y: -309}
   m_SizeDelta: {x: 201.97, y: 53.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &191952992
@@ -5189,7 +5189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f140e8f160af2724dadfdc19ecedb98d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ef75f13a726c88438b56dfc5990d654, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -5445,7 +5445,7 @@ RectTransform:
   m_GameObject: {fileID: 206477027}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1010395871}
@@ -5454,8 +5454,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 166.05, y: 158.3}
-  m_SizeDelta: {x: 169.16, y: 137.09}
+  m_AnchoredPosition: {x: 157.11, y: 184.88899}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &206477029
 MonoBehaviour:
@@ -5517,7 +5517,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -5551,18 +5551,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &206477032
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5575,6 +5563,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &206674195
 GameObject:
   m_ObjectHideFlags: 0
@@ -5899,7 +5890,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 797dba94e6737b04da98853b3d01f064, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 1c9eacd0b143ec44e940c712e1efabb8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -8498,17 +8489,17 @@ RectTransform:
   m_GameObject: {fileID: 304460356}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 932936799}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 9
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.5493, y: -252.98}
-  m_SizeDelta: {x: 169.52, y: 137.09}
+  m_AnchoredPosition: {x: -2.3420048, y: -290.98102}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &304460358
 MonoBehaviour:
@@ -8570,7 +8561,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -8604,18 +8595,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &304460361
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -8628,6 +8607,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &309078443
 GameObject:
   m_ObjectHideFlags: 0
@@ -9207,7 +9189,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b2bc8d35bb9d9994197a44139e5ffb57, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0b31cc7d926529e40a6e4b370612e1cd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -9883,7 +9865,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 563, y: -351.96}
+  m_AnchoredPosition: {x: 1.000061, y: -309.02472}
   m_SizeDelta: {x: 201.97, y: 53.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &356033083
@@ -9962,7 +9944,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f140e8f160af2724dadfdc19ecedb98d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ef75f13a726c88438b56dfc5990d654, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -10009,17 +9991,17 @@ RectTransform:
   m_GameObject: {fileID: 359578594}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 363094353}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 11
+  m_RootOrder: 15
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 191.535, y: -108.3}
-  m_SizeDelta: {x: 128.75, y: 128.75}
+  m_AnchoredPosition: {x: 199.95, y: -164.25}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &359578596
 MonoBehaviour:
@@ -10081,7 +10063,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -10115,18 +10097,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &359578599
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10139,6 +10109,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &360688235
 GameObject:
   m_ObjectHideFlags: 0
@@ -10483,17 +10456,17 @@ RectTransform:
   m_GameObject: {fileID: 367340675}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 787340884}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 13
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -1.73, y: -115.88}
-  m_SizeDelta: {x: 169.16, y: 137.09}
+  m_AnchoredPosition: {x: -2.3420048, y: -132.61101}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &367340677
 MonoBehaviour:
@@ -10555,7 +10528,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -10589,18 +10562,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerRight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &367340680
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10613,6 +10574,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 1
+  gl: {fileID: 1688485928}
 --- !u!1 &369110732
 GameObject:
   m_ObjectHideFlags: 0
@@ -10984,17 +10948,17 @@ RectTransform:
   m_GameObject: {fileID: 377320038}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1356033115}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 8
+  m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -171.58005, y: 21.21}
-  m_SizeDelta: {x: 170.54, y: 137.09}
+  m_AnchoredPosition: {x: -162, y: 25}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &377320040
 MonoBehaviour:
@@ -11056,7 +11020,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -11090,18 +11054,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerRight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &377320043
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -11114,6 +11066,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 1
+  gl: {fileID: 1688485928}
 --- !u!1 &381606054
 GameObject:
   m_ObjectHideFlags: 0
@@ -11150,7 +11105,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 163.38, y: -363.11}
+  m_AnchoredPosition: {x: 162, y: -352}
   m_SizeDelta: {x: 184.77, y: 56.22}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &381606056
@@ -11948,17 +11903,17 @@ RectTransform:
   m_GameObject: {fileID: 407596823}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 813997865}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 165.87, y: 21.51}
-  m_SizeDelta: {x: 169.52, y: 137.09}
+  m_AnchoredPosition: {x: 157.11, y: 24.999998}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &407596825
 MonoBehaviour:
@@ -12020,7 +11975,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -12054,18 +12009,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &407596828
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -12078,6 +12021,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &419826511
 GameObject:
   m_ObjectHideFlags: 0
@@ -12137,7 +12083,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: ee710eb36742c7f4383f118295dfe335, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 320d263ae27261e40a7b566f1964a2fa, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12426,7 +12372,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6cf1a3bcf94c7d44381d6aca90ce9494, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 73c3f04cc31ae314aafd3e20dc5467ea, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -12607,7 +12553,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: a73526758185c0c4cb140c10860e39dd, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e9d93cf12ba879a4fa1a21cc954eaaa8, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -13530,7 +13476,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 749.815, y: -5075}
+  m_AnchoredPosition: {x: 749.815, y: -5026}
   m_SizeDelta: {x: 1468, y: 1310}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &471278191
@@ -14283,7 +14229,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 562.955, y: -351.93185}
+  m_AnchoredPosition: {x: 1, y: -309}
   m_SizeDelta: {x: 201.97, y: 53.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &498685929
@@ -14362,7 +14308,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f140e8f160af2724dadfdc19ecedb98d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ef75f13a726c88438b56dfc5990d654, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -14443,7 +14389,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 5043182ba74c38141989290f3fab697c, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2cbdc3dc8c917bb4f9846ff9b7d37abe, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17019,7 +16965,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b4115c1e53ed784459d528bbb7be1d86, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0647662ec4d75bb429d6ac5df6e7bccc, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -17296,7 +17242,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 749.815, y: -2205}
+  m_AnchoredPosition: {x: 749.815, y: -2186}
   m_SizeDelta: {x: 1468, y: 874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &597407570
@@ -17471,7 +17417,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 55e8e01985e861d4499832eb179ce685, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a92bb97ca501aea4580bec8656c85e50, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18535,7 +18481,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 20ac59a065455bd49a01df9ac8de1eeb, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5cceccb3d1590044f898899dca6d8177, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -18747,17 +18693,17 @@ RectTransform:
   m_GameObject: {fileID: 658721224}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1553038571}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.47, y: 21.51}
-  m_SizeDelta: {x: 169.16, y: 137.09}
+  m_AnchoredPosition: {x: -2.3420048, y: 24.999998}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &658721226
 MonoBehaviour:
@@ -18819,7 +18765,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -18853,18 +18799,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &658721229
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -18877,6 +18811,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &662551305
 GameObject:
   m_ObjectHideFlags: 0
@@ -18935,7 +18872,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 6ae902b0e5eb6de4c84618ed6675fc02, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e62f249b5b10dd442b2a8d7bcc9bb585, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -19349,7 +19286,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 94144c916e6ea8348b143f774245cce2, type: 3}
+  m_Sprite: {fileID: 21300000, guid: c35da98a7391c144cb9072a579705ff7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -20173,7 +20110,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9046b46d452c6ac4aa809d3f514776c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c286974044edbf40aa188a155a06811, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -22350,17 +22287,17 @@ RectTransform:
   m_GameObject: {fileID: 781718048}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 2009349044}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 10
+  m_RootOrder: 14
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 64.1, y: -108.3}
-  m_SizeDelta: {x: 128.75, y: 128.75}
+  m_AnchoredPosition: {x: 69.17, y: -164.25}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &781718050
 MonoBehaviour:
@@ -22422,7 +22359,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -22456,18 +22393,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &781718053
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -22480,6 +22405,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &787340883
 GameObject:
   m_ObjectHideFlags: 0
@@ -23129,7 +23057,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 29417bc079741904e96b1289e6277c11, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4ea8441ba45f781418b4761f55297687, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -23685,7 +23613,7 @@ RectTransform:
   m_GameObject: {fileID: 838763435}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1796745120}
@@ -23694,8 +23622,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -3.1, y: 158.3}
-  m_SizeDelta: {x: 169.16, y: 137.09}
+  m_AnchoredPosition: {x: -2.3420048, y: 184.88899}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &838763437
 MonoBehaviour:
@@ -23757,7 +23685,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -23791,18 +23719,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &838763440
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -23815,6 +23731,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &839309756
 GameObject:
   m_ObjectHideFlags: 0
@@ -24043,7 +23962,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9962ce1b16de060419c1080e3496963a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7d4f2ecfd773fe4e8154e796774b182, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -25294,7 +25213,7 @@ MonoBehaviour:
   m_HandleRect: {fileID: 1635308127}
   m_Direction: 2
   m_Value: 0.99999976
-  m_Size: 0.15833159
+  m_Size: 0.15969723
   m_NumberOfSteps: 0
   m_OnValueChanged:
     m_PersistentCalls:
@@ -25572,7 +25491,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 06c7d2828b45e8e488dee0718157a79f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3644b608a289e8f4dbc2ddf5481c2176, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26071,7 +25990,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 562.955, y: -351.93185}
+  m_AnchoredPosition: {x: 0.99993896, y: -309}
   m_SizeDelta: {x: 201.97, y: 53.94}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &915698798
@@ -26150,7 +26069,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: f140e8f160af2724dadfdc19ecedb98d, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2ef75f13a726c88438b56dfc5990d654, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -26330,17 +26249,17 @@ RectTransform:
   m_GameObject: {fileID: 921644219}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 928901275}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 15
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 165.87, y: -252.98}
-  m_SizeDelta: {x: 169.52, y: 137.09}
+  m_AnchoredPosition: {x: 157.11, y: -290.98102}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &921644221
 MonoBehaviour:
@@ -26402,7 +26321,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -26436,18 +26355,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &921644224
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -26460,6 +26367,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &925915693
 GameObject:
   m_ObjectHideFlags: 0
@@ -27343,7 +27253,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
   m_AnchoredPosition: {x: 736.7597, y: 453.62112}
-  m_SizeDelta: {x: 1479.63, y: 5730}
+  m_SizeDelta: {x: 1479.63, y: 5681}
   m_Pivot: {x: 1, y: 1}
 --- !u!114 &950354503
 MonoBehaviour:
@@ -27374,10 +27284,10 @@ MonoBehaviour:
   m_Padding:
     m_Left: 20
     m_Right: 0
-    m_Top: 0
+    m_Top: 1
     m_Bottom: 0
   m_ChildAlignment: 1
-  m_Spacing: 10
+  m_Spacing: 0
   m_ChildForceExpandWidth: 1
   m_ChildForceExpandHeight: 1
   m_ChildControlWidth: 0
@@ -28638,7 +28548,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d0862b98d9562b445ad3ead23c37bb9a, type: 3}
+  m_Sprite: {fileID: 21300000, guid: e6df92242a82ea84b9ad6fdfbebf5274, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -31879,7 +31789,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9046b46d452c6ac4aa809d3f514776c9, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5c286974044edbf40aa188a155a06811, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -34723,7 +34633,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: afe27c712a7cdd64c8a5c6393dc28fad, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 2904b680fb472bb47a4e965c38ae6bfd, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -35257,7 +35167,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d942c152901ee794c9cf56bcb52e2540, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 8b53e967a322b334f9bd356ad87a34d7, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -35470,7 +35380,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 75975de5b5b81bc43a73bfa4cf525681, type: 3}
+  m_Sprite: {fileID: 21300000, guid: f06d89b115c4597428ba86288f7ae79e, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -35810,7 +35720,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 814dbeb29b3a2f34489f18e9007f04ac, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dd2686771516d6d43beea42b1c953c24, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36642,7 +36552,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 122f39f4d16bd074fa54d9c64974b7e0, type: 3}
+  m_Sprite: {fileID: 21300000, guid: dc9eda6e47a8bf84ea5cd76b23ea8ab5, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -36718,7 +36628,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: cfd82ee4c1c38084cb972445efce3a97, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 758ac89b4db82b0498360b3bb8965f93, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -39138,17 +39048,17 @@ RectTransform:
   m_GameObject: {fileID: 1329490884}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 684772660}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 3
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -171.91, y: -252.98}
-  m_SizeDelta: {x: 171.2, y: 137.09}
+  m_AnchoredPosition: {x: -162, y: -290.98102}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1329490886
 MonoBehaviour:
@@ -39210,7 +39120,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -39244,18 +39154,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerRight
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1329490889
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -39268,6 +39166,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 1
+  gl: {fileID: 1688485928}
 --- !u!1 &1334072821
 GameObject:
   m_ObjectHideFlags: 0
@@ -40032,12 +39933,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 1
+  m_UiScaleMode: 0
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
   m_ReferenceResolution: {x: 1920, y: 1080}
   m_ScreenMatchMode: 0
-  m_MatchWidthOrHeight: 0
+  m_MatchWidthOrHeight: 0.5
   m_PhysicalUnit: 3
   m_FallbackScreenDPI: 96
   m_DefaultSpriteDPI: 96
@@ -40220,31 +40121,31 @@ RectTransform:
   m_GameObject: {fileID: 1353132625}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 0.84974, y: 0.84974, z: 0.84974}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1828392002}
   - {fileID: 838763436}
   - {fileID: 206477028}
-  - {fileID: 1329490885}
-  - {fileID: 1523642629}
+  - {fileID: 377320039}
   - {fileID: 658721225}
   - {fileID: 407596824}
-  - {fileID: 1982626529}
-  - {fileID: 377320039}
-  - {fileID: 304460357}
-  - {fileID: 781718049}
-  - {fileID: 359578595}
   - {fileID: 1512820457}
   - {fileID: 367340676}
   - {fileID: 1446886938}
+  - {fileID: 1329490885}
+  - {fileID: 304460357}
   - {fileID: 921644220}
+  - {fileID: 1523642629}
+  - {fileID: 1982626529}
+  - {fileID: 781718049}
+  - {fileID: 359578595}
   m_Father: {fileID: 1837136461}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
+  m_AnchoredPosition: {x: -0.5169, y: -7.1133}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &1356033114
@@ -41072,7 +40973,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!224 &1380316533
 RectTransform:
   m_ObjectHideFlags: 0
@@ -41701,7 +41602,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 7648ec88acf3e1e44bfe4b054c8894c1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5d19592ceef09704b95480ac5721796d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -42287,17 +42188,17 @@ RectTransform:
   m_GameObject: {fileID: 1446886937}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1461105294}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 14
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 166.92, y: -115.88}
-  m_SizeDelta: {x: 167.42, y: 137.09}
+  m_AnchoredPosition: {x: 157.11, y: -132.61101}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1446886939
 MonoBehaviour:
@@ -42359,7 +42260,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -42393,18 +42294,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1446886942
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42417,6 +42306,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &1447827645
 GameObject:
   m_ObjectHideFlags: 0
@@ -43862,17 +43754,17 @@ RectTransform:
   m_GameObject: {fileID: 1512820456}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1298487647}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 12
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -171.91, y: -115.88}
-  m_SizeDelta: {x: 171.2, y: 137.09}
+  m_AnchoredPosition: {x: -162, y: -132.61101}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1512820458
 MonoBehaviour:
@@ -43934,7 +43826,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -43968,18 +43860,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1512820461
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -43992,6 +43872,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &1514718176
 GameObject:
   m_ObjectHideFlags: 0
@@ -44370,17 +44253,17 @@ RectTransform:
   m_GameObject: {fileID: 1523642628}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 401304223}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 4
+  m_RootOrder: 12
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -193.13, y: 20.454994}
-  m_SizeDelta: {x: 128.75, y: 128.75}
+  m_AnchoredPosition: {x: -194.8, y: 3.74}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1523642630
 MonoBehaviour:
@@ -44442,7 +44325,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -44476,18 +44359,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1523642633
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -44500,6 +44371,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &1523648387
 GameObject:
   m_ObjectHideFlags: 0
@@ -44692,7 +44566,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: dc53945edf69ef04496676a9818afc63, type: 3}
+  m_Sprite: {fileID: 21300000, guid: faca74652814d0f4c921998b11e8d3b9, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -44920,7 +44794,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 8cb2837f68aad8a4ca0bca36f3be938b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a1b0b45526c71be45bbda2e564bc3b51, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -45437,7 +45311,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 9e0270a34c45f7d4bbd0a92c86435dd5, type: 3}
+  m_Sprite: {fileID: 21300000, guid: a236259eb2e580e4fb189fc66cfa8f10, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -47628,8 +47502,8 @@ RectTransform:
   m_Father: {fileID: 36001248}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0, y: 0.8416682}
-  m_AnchorMax: {x: 1, y: 0.99999976}
+  m_AnchorMin: {x: 0, y: 0.8403026}
+  m_AnchorMax: {x: 1, y: 0.9999998}
   m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: 20, y: 20}
   m_Pivot: {x: 0.5, y: 0.5}
@@ -47729,7 +47603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: b746f4126ea392a4892c783c1b429d59, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 3730d99a175c8f44895da4badf5e029b, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -48841,6 +48715,23 @@ MonoBehaviour:
   - {fileID: 367340679}
   - {fileID: 1446886941}
   - {fileID: 921644223}
+  captchaButtonList:
+  - {fileID: 1828392006}
+  - {fileID: 838763440}
+  - {fileID: 206477032}
+  - {fileID: 377320043}
+  - {fileID: 658721229}
+  - {fileID: 407596828}
+  - {fileID: 1512820461}
+  - {fileID: 367340680}
+  - {fileID: 1446886942}
+  - {fileID: 1329490889}
+  - {fileID: 304460361}
+  - {fileID: 921644224}
+  - {fileID: 1523642633}
+  - {fileID: 1982626533}
+  - {fileID: 781718053}
+  - {fileID: 359578599}
   passwordAnswersOne:
   - {fileID: 594866178}
   - {fileID: 710710655}
@@ -50877,7 +50768,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 749.815, y: -3973}
+  m_AnchoredPosition: {x: 749.815, y: -3934}
   m_SizeDelta: {x: 1468, y: 874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1771917132
@@ -50900,7 +50791,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 2e9400881980aaf4db004ae94b10149f, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 57297adab4923f44493f1e627c30e5fb, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -50976,7 +50867,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 1e1b41cf13d520f418b30719d63e2570, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0070abe941621654d85ce8991bae5569, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -51595,7 +51486,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 24c6e7f730d3ad34a8a097914da0fb1b, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 65051f779d16bc24cbe10c5941f2689d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -52368,7 +52259,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d15305ae0481d21489865702cd0193c3, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 0c5ea9a0e0d2af54a97a6971be1f942a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -52637,7 +52528,7 @@ RectTransform:
   m_GameObject: {fileID: 1828392001}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2954, y: 1.2954, z: 1.0795}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 669720569}
@@ -52646,8 +52537,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -172.27008, y: 158.3}
-  m_SizeDelta: {x: 169.16, y: 137.09}
+  m_AnchoredPosition: {x: -162, y: 184.88899}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1828392003
 MonoBehaviour:
@@ -52709,7 +52600,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -52743,18 +52634,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1828392006
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -52767,6 +52646,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &1837136460
 GameObject:
   m_ObjectHideFlags: 0
@@ -53449,7 +53331,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 91efb60e196a22540bee6246f6c204a4, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 865c857e4a7dfb444ab81b75192236d1, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -55726,7 +55608,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 749.815, y: -3089}
+  m_AnchoredPosition: {x: 749.815, y: -3060}
   m_SizeDelta: {x: 1468, y: 874}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1930025451
@@ -56115,7 +55997,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 3ea20e63eae0a534ba60e725475e70e1, type: 3}
+  m_Sprite: {fileID: 21300000, guid: b7f16f143c1532148b087f742f6a0d6d, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -56663,17 +56545,17 @@ RectTransform:
   m_GameObject: {fileID: 1982626528}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalScale: {x: 1.2, y: 1.2, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1716201970}
   m_Father: {fileID: 1353132626}
-  m_RootOrder: 7
+  m_RootOrder: 13
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 191.52501, y: 20.454994}
-  m_SizeDelta: {x: 128.75, y: 128.75}
+  m_AnchoredPosition: {x: 199.94, y: 3.74}
+  m_SizeDelta: {x: 123.14, y: 123.14}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1982626530
 MonoBehaviour:
@@ -56735,7 +56617,7 @@ MonoBehaviour:
   m_Transition: 1
   m_Colors:
     m_NormalColor: {r: 1, g: 1, b: 1, a: 1}
-    m_HighlightedColor: {r: 1, g: 0.94329095, b: 0.504717, a: 1}
+    m_HighlightedColor: {r: 1, g: 1, b: 1, a: 0}
     m_PressedColor: {r: 1, g: 1, b: 1, a: 1}
     m_SelectedColor: {r: 1, g: 1, b: 1, a: 1}
     m_DisabledColor: {r: 0.78431374, g: 0.78431374, b: 0.78431374, a: 0.5019608}
@@ -56769,18 +56651,6 @@ MonoBehaviour:
           m_StringArgument: 
           m_BoolArgument: 0
         m_CallState: 2
-      - m_Target: {fileID: 1688485928}
-        m_TargetAssemblyTypeName: GameLogic, Assembly-CSharp
-        m_MethodName: CaptchaAnswerWrong
-        m_Mode: 1
-        m_Arguments:
-          m_ObjectArgument: {fileID: 0}
-          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
-          m_IntArgument: 0
-          m_FloatArgument: 0
-          m_StringArgument: 
-          m_BoolArgument: 0
-        m_CallState: 2
 --- !u!114 &1982626533
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -56793,6 +56663,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7947606322644634c95bbc038da93cdf, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  isPressed: 0
+  answerCorrect: 0
+  gl: {fileID: 1688485928}
 --- !u!1 &1984105012
 GameObject:
   m_ObjectHideFlags: 0
@@ -58176,7 +58049,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: d991bfc3917ba8a48ac6c2e0f30a5780, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 5f7fac56e267cc444941c4fec4d72599, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
