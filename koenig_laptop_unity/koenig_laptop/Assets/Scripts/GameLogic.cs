@@ -12,8 +12,8 @@ using UnityEngine.Video;
 public class GameLogic : MonoBehaviour
 {
     /// Object References
-    
-    
+
+
     public GameObject browser;
     public GameObject chatFrontpage;
     public GameObject explorerFrontpage;
@@ -95,7 +95,7 @@ public class GameLogic : MonoBehaviour
     public GameObject chatBeforeCall;
     public GameObject chatAfterCall;
 
-    
+
     public Image newsDotA;
     public Image newsDotB;
     public Image newsDotC;
@@ -107,7 +107,7 @@ public class GameLogic : MonoBehaviour
     public Image sliderTaskTwo;
     public Image sliderTaskFour;
 
-    
+
     public Slider sliderOne;
     public Slider sliderTwo;
     public Slider sliderThree;
@@ -115,18 +115,18 @@ public class GameLogic : MonoBehaviour
     public Slider sliderQuizTaskTwo;
     public Slider sliderQuizTaskFour;
 
-    
+
     public VideoPlayer videoPlayerOne;
     public VideoPlayer videoPlayerTwo;
     public VideoPlayer videoPlayerFour;
 
     public AudioSource audioPlayer;
-    
+
 
     public AudioClip misofCallOne;
     public AudioClip misofCallTwo;
-    
-    
+
+
     public TMP_InputField loginOne;
     public TMP_InputField loginTwo;
     public TMP_InputField loginThree;
@@ -140,18 +140,18 @@ public class GameLogic : MonoBehaviour
     public TMP_InputField loginFussballThree;
     public TMP_InputField loginFussballFour;
 
-    
+
     public TextMeshProUGUI percentTextTaskTwo;
     public TextMeshProUGUI percentTextTaskFour;
     public TextMeshProUGUI quizTwoWrong;
     public TextMeshProUGUI quizFourWrong;
-    
+
 
 
 
     /// Button References
 
-    
+
 
     public Button browserButton;
     public Button chatButton;
@@ -174,7 +174,7 @@ public class GameLogic : MonoBehaviour
 
     /// Variables
 
-    
+
 
     public bool articleActive = false;
     public bool newsAccess = false;
@@ -219,8 +219,8 @@ public class GameLogic : MonoBehaviour
     public int cardsSwiped = 0;
     public int myTubeAnswersGiven;
     public int myTubeCorrectAnswers;
-    
-    
+
+
     public string loginOneInput;
     public string loginTwoInput;
     public string loginThreeInput;
@@ -233,18 +233,18 @@ public class GameLogic : MonoBehaviour
     public string loginFussballTwoInput;
     public string loginFussballThreeInput;
     public string loginFussballFourInput;
-    
+
 
 
 
     /// Lists and Arrays
 
-    
-    
+
+
     public Button[] captchaButtons;
 
     public ButtonColor[] captchaButtonList;
-    
+
     public GameObject[] passwordAnswersOne;
     public GameObject[] passwordAnswersTwo;
     public GameObject[] passwordAnswersThree;
@@ -254,13 +254,13 @@ public class GameLogic : MonoBehaviour
     /// Methods and Logic
 
 
-    
+
     private void Start()
     {
         newsButtonA.onClick.AddListener(NewsAOnClick);
         newsButtonB.onClick.AddListener(NewsBOnClick);
         newsButtonC.onClick.AddListener(NewsCOnClick);
-        
+
         passwordOneUp.onClick.AddListener(ChangePasswordOneUp);
         passwordOneDown.onClick.AddListener(ChangePasswordOneDown);
         passwordTwoUp.onClick.AddListener(ChangePasswordTwoUp);
@@ -274,25 +274,25 @@ public class GameLogic : MonoBehaviour
         }
 
         activePasswordOne = 0;
-        
+
         passwordAnswersOne[0].SetActive(true);
-        
+
         for (int i = 0; i < passwordAnswersTwo.Length; i++)
         {
             passwordAnswersTwo[i].SetActive(false);
         }
 
         activePasswordTwo = 0;
-        
+
         passwordAnswersTwo[0].SetActive(true);
-        
+
         for (int i = 0; i < passwordAnswersThree.Length; i++)
         {
             passwordAnswersThree[i].SetActive(false);
         }
 
         activePasswordThree = 0;
-        
+
         passwordAnswersThree[0].SetActive(true);
     }
 
@@ -304,7 +304,7 @@ public class GameLogic : MonoBehaviour
             StartCoroutine(AdBlockDone());
             ubongoCorrect = false;
         }
-        
+
         if (quizAccessOpen)
         {
             loginOne.Select();
@@ -339,8 +339,8 @@ public class GameLogic : MonoBehaviour
         {
             loginFour.Select();
         }
-        
-        
+
+
         if (!string.IsNullOrEmpty(loginChatOneInput) && string.IsNullOrEmpty(loginChatTwoInput) && string.IsNullOrEmpty(loginChatThreeInput))
         {
             loginChatTwo.Select();
@@ -351,17 +351,17 @@ public class GameLogic : MonoBehaviour
         }
 
         percentTextTaskTwo.text = sliderQuizTaskTwo.value + "%";
-        
+
         percentTextTaskFour.text = sliderQuizTaskFour.value.ToString();
-        
-        Debug.Log(audioPlayer.time);
+
+        //Debug.Log(audioPlayer.time);
 
         if (audioOneStarted)
         {
             if (audioPlayer.isPlaying)
             {
                 Debug.Log("Call One Playing");
-                
+
                 if (audioPlayer.time > 18f)
                 {
                     Debug.Log("Call One Stopped");
@@ -400,42 +400,42 @@ public class GameLogic : MonoBehaviour
         {
             tinderAnswerScreen.SetActive(true);
         }
-        
+
         if (videoPlayerOne.isPlaying)
         {
-            Debug.Log("Video One Playing");
+            //Debug.Log("Video One Playing");
             playVideoOne.SetActive(false);
             pauseVideoOne.SetActive(true);
         }
         else
         {
-            Debug.Log("Video One Stopped");
+            //Debug.Log("Video One Stopped");
             playVideoOne.SetActive(true);
             pauseVideoOne.SetActive(false);
         }
-        
+
         if (videoPlayerTwo.isPlaying)
         {
-            Debug.Log("Video Two Playing");
+            //Debug.Log("Video Two Playing");
             pauseVideoTwo.SetActive(true);
             playVideoTwo.SetActive(false);
         }
         else
         {
-            Debug.Log("Video Two Stopped");
+            //Debug.Log("Video Two Stopped");
             playVideoTwo.SetActive(true);
             pauseVideoTwo.SetActive(false);
         }
 
         if (videoPlayerFour.isPlaying)
         {
-            Debug.Log("Video Four Playing");
+            //Debug.Log("Video Four Playing");
             playVideoFour.SetActive(false);
             pauseVideoFour.SetActive(true);
         }
         else
         {
-            Debug.Log("Video Four Stopped");
+            //Debug.Log("Video Four Stopped");
             playVideoFour.SetActive(true);
             pauseVideoFour.SetActive(false);
         }
@@ -490,22 +490,22 @@ public class GameLogic : MonoBehaviour
         browserButton.interactable = true;
         chatButton.interactable = true;
         explorerButton.interactable = true;
-        
+
         audioPlayer.Stop();
 
         if (!quizOneCorrect)
         {
             quizOneCorrectAnswers = 0;
-            quizOneAnswersGiven = 0; 
+            quizOneAnswersGiven = 0;
         }
 
         if (!quizThreeCorrect)
         {
             quizThreeCorrectAnswers = 0;
-            quizThreeAnswersGiven = 0; 
+            quizThreeAnswersGiven = 0;
         }
     }
-    
+
     public void ArticleBackButton()
     {
         if (articleActive)
@@ -521,7 +521,7 @@ public class GameLogic : MonoBehaviour
             articleActive = false;
         }
     }
-    
+
     public void OpenBrowser()
     {
         browser.SetActive(true);
@@ -529,7 +529,7 @@ public class GameLogic : MonoBehaviour
         chatButton.interactable = false;
         explorerButton.interactable = false;
     }
-    
+
     public void OpenChat()
     {
         chatFrontpage.SetActive(true);
@@ -538,8 +538,8 @@ public class GameLogic : MonoBehaviour
         chatButton.interactable = false;
         explorerButton.interactable = false;
     }
-    
-    
+
+
     public void ChatBackButton()
     {
         if (chatAccessPage.activeSelf)
@@ -557,7 +557,7 @@ public class GameLogic : MonoBehaviour
             explorerButton.interactable = true;
         }
     }
-    
+
     public void OpenExplorer()
     {
         if (explorerAccess == false)
@@ -565,7 +565,7 @@ public class GameLogic : MonoBehaviour
             explorerAccessPage.SetActive(true);
             browserButton.interactable = false;
             chatButton.interactable = false;
-            explorerButton.interactable = false; 
+            explorerButton.interactable = false;
         }
         else
         {
@@ -575,11 +575,11 @@ public class GameLogic : MonoBehaviour
                 browser.SetActive(false);
                 browserButton.interactable = false;
                 chatButton.interactable = false;
-                explorerButton.interactable = false; 
+                explorerButton.interactable = false;
             }
         }
     }
-    
+
     public void ExplorerBackButton()
     {
         if (explorerFrontpage.activeSelf)
@@ -598,7 +598,7 @@ public class GameLogic : MonoBehaviour
             explorerButton.interactable = true;
         }
     }
-    
+
     public void OpenNewsFrontpage()
     {
         if (newsAccess == false)
@@ -619,25 +619,25 @@ public class GameLogic : MonoBehaviour
             }
         }
     }
-    
+
     public void NewsBackButton()
     {
         newsAccessPage.SetActive(false);
         newsFrontpage.SetActive(false);
         browser.SetActive(true);
     }
-    
+
     private void NewsAOnClick()
     {
         Debug.Log("ButtonA");
         newsDotA.transform.DOShakePosition(1f, 10f, 10, 20f, true, true);
     }
-    
+
     private void NewsBOnClick()
     {
         StartCoroutine(NewsAccessGranted());
     }
-    
+
     private void NewsCOnClick()
     {
         Debug.Log("ButtonC");
@@ -663,13 +663,13 @@ public class GameLogic : MonoBehaviour
             }
         }
     }
-    
+
     public void InstaPicAccessBackButton()
     {
         instaPicAccessPage.SetActive(false);
         browser.SetActive(true);
     }
-    
+
     public void InstaPicBackButton()
     {
         instaPicFrontpage.SetActive(false);
@@ -717,7 +717,7 @@ public class GameLogic : MonoBehaviour
         videoOneStarted = true;
         thumbnailOne.SetActive(false);
     }
-    
+
     public void PlayMyTubeVideoTwo()
     {
         audioPlayer.volume = 0.2f;
@@ -735,13 +735,13 @@ public class GameLogic : MonoBehaviour
         videoFourStarted = true;
         thumbnailFour.SetActive(false);
     }
-    
+
     public void PauseMyTubeVideoOne()
     {
         videoPlayerOne.Pause();
         videoOneStarted = false;
     }
-    
+
     public void PauseMyTubeVideoTwo()
     {
         videoPlayerTwo.Pause();
@@ -753,22 +753,22 @@ public class GameLogic : MonoBehaviour
         videoPlayerFour.Pause();
         videoFourStarted = false;
     }
-    
+
     public void MyTubeBackButton()
     {
         videoPlayerOne.Stop();
         videoPlayerTwo.Stop();
         videoPlayerFour.Stop();
-        
+
         myTubeAccessPage.SetActive(false);
-        
+
         myTubeVidOne.SetActive(false);
         myTubeVidTwo.SetActive(false);
         myTubeVidThree.SetActive(false);
         myTubeVidFour.SetActive(false);
-        
+
         adBlockPage.SetActive(false);
-        
+
         browser.SetActive(true);
     }
 
@@ -785,13 +785,13 @@ public class GameLogic : MonoBehaviour
         myTubeVidFour.SetActive(false);
         thumbnailOne.SetActive(true);
     }
-    
+
     public void LoadVideoSumm()
     {
         videoPlayerOne.Stop();
         videoPlayerTwo.Stop();
         videoPlayerFour.Stop();
-        
+
         if (!adAccessGranted)
         {
             myTubeVidOne.SetActive(false);
@@ -810,7 +810,7 @@ public class GameLogic : MonoBehaviour
             thumbnailTwo.SetActive(true);
         }
     }
-    
+
     public void LoadVideoMassnahmen()
     {
         videoPlayerOne.Stop();
@@ -821,7 +821,7 @@ public class GameLogic : MonoBehaviour
         myTubeVidFour.SetActive(false);
         myTubeVidThree.SetActive(true);
     }
-    
+
     public void LoadVideoLecker()
     {
         videoPlayerOne.Stop();
@@ -950,44 +950,44 @@ public class GameLogic : MonoBehaviour
 
         articleActive = true;
     }
-    
+
     public void OpenArticleTwo()
     {
         newsFrontpage.SetActive(false);
         articleTwo.SetActive(true);
-        
+
         articleActive = true;
     }
-    
+
     public void OpenArticleThree()
     {
         newsFrontpage.SetActive(false);
         articleThree.SetActive(true);
-        
+
         articleActive = true;
     }
-    
+
     public void OpenArticleFour()
     {
         newsFrontpage.SetActive(false);
         articleFour.SetActive(true);
-        
+
         articleActive = true;
     }
-    
+
     public void OpenArticleFive()
     {
         newsFrontpage.SetActive(false);
         articleFive.SetActive(true);
-        
+
         articleActive = true;
     }
-    
+
     public void OpenArticleSix()
     {
         newsFrontpage.SetActive(false);
         articleSix.SetActive(true);
-        
+
         articleActive = true;
     }
 
@@ -995,12 +995,12 @@ public class GameLogic : MonoBehaviour
     {
         rightCaptchaAnswers ++;
     }
-    
+
     public void CaptchaAnswerWrong()
     {
         wrongCaptchaAnswers ++;
     }
-    
+
     public void CaptchaLogic()
     {
         if (rightCaptchaAnswers == 3 && wrongCaptchaAnswers == 0)
@@ -1013,11 +1013,11 @@ public class GameLogic : MonoBehaviour
             {
                 i.gameObject.GetComponent<ButtonColor>().isPressed = false;
             }
-            
+
             StartCoroutine(CaptchaAccessDenied());
         }
     }
-    
+
     public void QuizAccessCheck()
     {
         if (loginOneInput == "1" && loginTwoInput == "9" && loginThreeInput == "1" && loginFourInput == "2")
@@ -1044,20 +1044,20 @@ public class GameLogic : MonoBehaviour
         {
             StartCoroutine(QuizTaskTwoCorrect());
         }
-        
+
         if (sliderQuizTaskTwo.value > -59)
         {
             Debug.Log("lower");
             StartCoroutine(QuizTwoAnswerWrong());
         }
-        
+
         if (sliderQuizTaskTwo.value < -79)
         {
             Debug.Log("higher");
             StartCoroutine(QuizTwoAnswerWrong());
         }
     }
-    
+
     public void QuizTaskFourCheck()
     {
         if (sliderQuizTaskFour.value is <= 1050000 and >= 950000)
@@ -1069,7 +1069,7 @@ public class GameLogic : MonoBehaviour
         {
             StartCoroutine(QuizFourAnswerWrong());
         }
-        
+
         if (sliderQuizTaskFour.value > 1050000)
         {
             StartCoroutine(QuizFourAnswerWrong());
@@ -1083,36 +1083,36 @@ public class GameLogic : MonoBehaviour
             quizOneAnswer.SetActive(false);
             quizTaskTwo.SetActive(true);
         }
-        
+
         if (quizTwoAnswer.activeSelf)
         {
             quizTwoAnswer.SetActive(false);
             quizTaskThree.SetActive(true);
         }
-        
+
         if (quizThreeAnswer.activeSelf)
         {
             quizThreeAnswer.SetActive(false);
             quizTaskFour.SetActive(true);
         }
-        
+
         if (quizFourAnswer.activeSelf)
         {
             quizFourAnswer.SetActive(false);
             quizEndScreen.SetActive(true);
         }
     }
-    
+
     public void OpenExplorerPicOne()
     {
         explorerPicOne.SetActive(true);
     }
-    
+
     public void OpenExplorerPicTwo()
     {
         explorerPicTwo.SetActive(true);
     }
-    
+
     public void OpenExplorerPicThree()
     {
         explorerPicThree.SetActive(true);
@@ -1122,72 +1122,72 @@ public class GameLogic : MonoBehaviour
     {
         explorerPicFour.SetActive(true);
     }
-    
+
     public void OpenExplorerPicFive()
     {
         explorerPicFive.SetActive(true);
     }
-    
+
     public void OpenExplorerPicSix()
     {
         explorerPicSix.SetActive(true);
     }
-    
+
     public void OpenExplorerPicSeven()
     {
         explorerPicSeven.SetActive(true);
     }
-    
+
     public void OpenExplorerPicEight()
     {
         explorerPicEight.SetActive(true);
     }
-    
+
     public void OpenExplorerPicNine()
     {
         explorerPicNine.SetActive(true);
     }
-    
+
     public void CloseExplorerPicOne()
     {
         explorerPicOne.SetActive(false);
     }
-    
+
     public void CloseExplorerPicTwo()
     {
         explorerPicTwo.SetActive(false);
     }
-    
+
     public void CloseExplorerPicThree()
     {
         explorerPicThree.SetActive(false);
     }
-    
+
     public void CloseExplorerPicFour()
     {
         explorerPicFour.SetActive(false);
     }
-    
+
     public void CloseExplorerPicFive()
     {
         explorerPicFive.SetActive(false);
     }
-    
+
     public void CloseExplorerPicSix()
     {
         explorerPicSix.SetActive(false);
     }
-    
+
     public void CloseExplorerPicSeven()
     {
         explorerPicSeven.SetActive(false);
     }
-    
+
     public void CloseExplorerPicEight()
     {
         explorerPicEight.SetActive(false);
     }
-    
+
     public void CloseExplorerPicNine()
     {
         explorerPicNine.SetActive(false);
@@ -1208,7 +1208,7 @@ public class GameLogic : MonoBehaviour
             passwordAnswersOne[activePasswordOne].SetActive(true);
         }
     }
-    
+
     public void ChangePasswordOneDown()
     {
         if (activePasswordOne <= passwordAnswersOne.Length -1 && activePasswordOne > 0)
@@ -1224,7 +1224,7 @@ public class GameLogic : MonoBehaviour
             passwordAnswersOne[activePasswordOne].SetActive(true);
         }
     }
-    
+
     public void ChangePasswordTwoUp()
     {
         if (activePasswordTwo < passwordAnswersTwo.Length -1)
@@ -1240,7 +1240,7 @@ public class GameLogic : MonoBehaviour
             passwordAnswersTwo[activePasswordTwo].SetActive(true);
         }
     }
-    
+
     public void ChangePasswordTwoDown()
     {
         if (activePasswordTwo <= passwordAnswersTwo.Length -1 && activePasswordTwo > 0)
@@ -1256,7 +1256,7 @@ public class GameLogic : MonoBehaviour
             passwordAnswersTwo[activePasswordTwo].SetActive(true);
         }
     }
-    
+
     public void ChangePasswordThreeUp()
     {
         if (activePasswordThree < passwordAnswersThree.Length -1)
@@ -1272,7 +1272,7 @@ public class GameLogic : MonoBehaviour
             passwordAnswersThree[activePasswordThree].SetActive(true);
         }
     }
-    
+
     public void ChangePasswordThreeDown()
     {
         if (activePasswordThree <= passwordAnswersThree.Length -1 && activePasswordThree > 0)
@@ -1288,7 +1288,7 @@ public class GameLogic : MonoBehaviour
             passwordAnswersThree[activePasswordThree].SetActive(true);
         }
     }
-    
+
     public void CheckPasswordChat()
     {
         if (activePasswordOne == 2 && activePasswordTwo == 1 && activePasswordThree == 2)
@@ -1300,7 +1300,7 @@ public class GameLogic : MonoBehaviour
             StartCoroutine(LaptopAccessDenied());
         }
     }
-    
+
     public void OpenChatKim()
     {
         chatKim.SetActive(true);
@@ -1320,7 +1320,7 @@ public class GameLogic : MonoBehaviour
         chatSchoolChat.SetActive(false);
         chatFussballChat.SetActive(false);
     }
-    
+
     public void OpenChatMichelle()
     {
         chatKim.SetActive(false);
@@ -1330,7 +1330,7 @@ public class GameLogic : MonoBehaviour
         chatSchoolChat.SetActive(false);
         chatFussballChat.SetActive(false);
     }
-    
+
     public void OpenChatHippoline()
     {
         chatKim.SetActive(false);
@@ -1340,7 +1340,7 @@ public class GameLogic : MonoBehaviour
         chatSchoolChat.SetActive(false);
         chatFussballChat.SetActive(false);
     }
-    
+
     public void OpenChatSchoolChat()
     {
         if (!schoolChatAccess)
@@ -1396,8 +1396,8 @@ public class GameLogic : MonoBehaviour
             Debug.Log("Pin incorrect, try again!");
         }
     }
-    
-    
+
+
     public void CheckLoginChatTwo()
     {
         if (loginChatOneInput != null && loginChatTwoInput != null && loginChatThreeInput != null && loginChatFourInput != null)
@@ -1416,7 +1416,7 @@ public class GameLogic : MonoBehaviour
         chatFrontpage.SetActive(true);
         calendar.SetActive(false);
     }
-    
+
     public void OpenCalendar()
     {
         chatFrontpage.SetActive(false);
@@ -1432,7 +1432,7 @@ public class GameLogic : MonoBehaviour
         audioOneStarted = true;
         audioPlayer.Play();
     }
-    
+
     public void StartCallTwo()
     {
         audioPlayer.volume = 1f;
@@ -1450,7 +1450,7 @@ public class GameLogic : MonoBehaviour
         callScreenOne.SetActive(false);
         chatProfMisof.SetActive(true);
     }
-    
+
     public void EndCallTwo()
     {
         audioPlayer.Stop();
@@ -1462,7 +1462,7 @@ public class GameLogic : MonoBehaviour
 
     /// Coroutines
 
-    
+
 
     IEnumerator NewsAccessGranted()
     {
@@ -1499,7 +1499,7 @@ public class GameLogic : MonoBehaviour
         }
 
         yield return new WaitForSeconds(0.2f);
-        
+
         foreach (var button in captchaButtons)
         {
             button.GetComponent<Image>().DOColor(Color.white, 1f);
@@ -1513,19 +1513,19 @@ public class GameLogic : MonoBehaviour
     IEnumerator MyTubeAccessGranted()
     {
         myTubeAccess = true;
-        
+
         sliderOne.interactable = false;
         sliderTwo.interactable = false;
         sliderThree.interactable = false;
         sliderFour.interactable = false;
-        
+
         sliderOneColor.color = Color.green;
         sliderTwoColor.color = Color.green;
         sliderThreeColor.color = Color.green;
         sliderFourColor.color = Color.green;
 
         Debug.Log("Sliders in right position!");
-        
+
         yield return new WaitForSeconds(1.5f);
 
         myTubeAccessPage.SetActive(false);
@@ -1547,7 +1547,7 @@ public class GameLogic : MonoBehaviour
             quizTwoWrong.gameObject.SetActive(true);
             yield return new WaitForSeconds(1.5f);
         }
-        
+
         if (sliderQuizTaskTwo.value is >= 1 and <= 100)
         {
             quizTwoWrong.text = "Versuche es deutlich niedriger";
@@ -1568,7 +1568,7 @@ public class GameLogic : MonoBehaviour
         laptopLoginButton.transform.DOScale(1.2f, 0.5f);
         laptopLoginButton.DOFade(1f, 1f);
         yield return new WaitForSeconds(1f);
-        
+
         Debug.Log("Password correct!");
         laptopAccess = true;
         chatAccessPage.SetActive(false);
@@ -1576,7 +1576,7 @@ public class GameLogic : MonoBehaviour
         chatButton.interactable = true;
         explorerButton.interactable = true;
     }
-    
+
     IEnumerator LaptopAccessDenied()
     {
         Debug.Log("Password wrong!");
@@ -1594,7 +1594,7 @@ public class GameLogic : MonoBehaviour
         quizTaskTwo.SetActive(false);
         quizTwoAnswer.SetActive(true);
     }
-    
+
     IEnumerator QuizTaskFourCorrect()
     {
         quizFourWrong.gameObject.SetActive(false);
@@ -1607,7 +1607,7 @@ public class GameLogic : MonoBehaviour
         quizFourAnswer.SetActive(true);
         allQuizCorrect = true;
     }
-    
+
     IEnumerator QuizFourAnswerWrong()
     {
         if (sliderQuizTaskFour.value is >= 1049999 and <= 1500000)
@@ -1623,7 +1623,7 @@ public class GameLogic : MonoBehaviour
             quizFourWrong.gameObject.SetActive(true);
             yield return new WaitForSeconds(1.5f);
         }
-        
+
         if (sliderQuizTaskFour.value is >= 0 and <= 500000)
         {
             quizFourWrong.text = "Versuche es deutlich höher";
@@ -1631,7 +1631,7 @@ public class GameLogic : MonoBehaviour
             yield return new WaitForSeconds(1.5f);
         }
     }
-    
+
     IEnumerator AdBlockDone()
     {
         yield return new WaitForSeconds(1.8f);
