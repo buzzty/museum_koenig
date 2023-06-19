@@ -31,7 +31,8 @@ public class SlotQuizTwo : MonoBehaviour, IDropHandler
 
             eventDataTwo.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
             
-            eventDataTwo.pointerDrag.GetComponent<DragAndDropTwo>().isLocked = true;
+            //eventDataTwo.pointerDrag.GetComponent<DragAndDropTwo>().isLocked = true;
+            eventDataTwo.pointerDrag.GetComponent<DragAndDropTwo>().enabled = false;
             
             gameLogic.quizThreeAnswersGiven++;
         }

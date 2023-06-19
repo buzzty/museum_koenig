@@ -31,7 +31,9 @@ public class Slots : MonoBehaviour, IDropHandler
 
             eventDataMinigame.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
             
-            eventDataMinigame.pointerDrag.GetComponent<AnswersMinigame>().isLocked = true;
+            //eventDataMinigame.pointerDrag.GetComponent<AnswersMinigame>().isLocked = true;
+
+            eventDataMinigame.pointerDrag.GetComponent<AnswersMinigame>().enabled = false;
 
             minigame.answersGiven++;
         }
