@@ -16,9 +16,8 @@ public class DragAndDropOne : MonoBehaviour, IPointerDownHandler, IBeginDragHand
 
     private void Awake()
     {
-        intiPosition = transform.position;
+        intiPosition = transform.localPosition;
     }
-
 
     private void Start()
     {
@@ -55,6 +54,6 @@ public class DragAndDropOne : MonoBehaviour, IPointerDownHandler, IBeginDragHand
 
     public void ResetPosition()
     {
-        transform.position = intiPosition;
+        transform.localPosition = intiPosition;
     }
 }
