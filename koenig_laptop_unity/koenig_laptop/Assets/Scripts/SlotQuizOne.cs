@@ -32,7 +32,8 @@ public class SlotQuizOne : MonoBehaviour, IDropHandler
             
             eventData.pointerDrag.GetComponent<RectTransform>().anchoredPosition = this.GetComponent<RectTransform>().anchoredPosition;
 
-            eventData.pointerDrag.GetComponent<DragAndDropOne>().isLocked = true;
+            //eventData.pointerDrag.GetComponent<DragAndDropOne>().isLocked = true;
+            eventData.pointerDrag.GetComponent<DragAndDropOne>().enabled = false;
 
             gameLogic.quizOneAnswersGiven++;
         }
