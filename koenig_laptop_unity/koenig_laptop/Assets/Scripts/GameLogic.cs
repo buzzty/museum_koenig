@@ -55,6 +55,14 @@ public class GameLogic : MonoBehaviour
     public GameObject infoScreenSixHandle;
     public GameObject infoScreenSevenHandle;
     public GameObject infoScreenEightHandle;
+    public GameObject infoIconOne;
+    public GameObject infoIconTwo;
+    public GameObject infoIconThree;
+    public GameObject infoIconFour;
+    public GameObject infoIconFive;
+    public GameObject infoIconSix;
+    public GameObject infoIconSeven;
+    public GameObject infoIconEight;
     public GameObject explorerPicOne;
     public GameObject explorerPicTwo;
     public GameObject explorerPicThree;
@@ -145,7 +153,6 @@ public class GameLogic : MonoBehaviour
     public TextMeshProUGUI percentTextTaskFour;
     public TextMeshProUGUI quizTwoWrong;
     public TextMeshProUGUI quizFourWrong;
-
 
 
 
@@ -307,12 +314,14 @@ public class GameLogic : MonoBehaviour
 
         if (quizAccessOpen)
         {
+            TouchScreenKeyboard.Open("",TouchScreenKeyboardType.NumberPad);
             loginOne.Select();
             quizAccessOpen = false;
         }
 
         if (schoolChatOpen)
         {
+            TouchScreenKeyboard.Open("",TouchScreenKeyboardType.NumberPad);
             loginChatOne.Select();
             schoolChatOpen = false;
         }

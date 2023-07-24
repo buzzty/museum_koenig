@@ -27,6 +27,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(true);
             gameLogic.infoScreenSevenHandle.SetActive(true);
             gameLogic.infoScreenEightHandle.SetActive(true);
+            gameLogic.infoIconOne.SetActive(false);
+            gameLogic.infoIconTwo.SetActive(true);
+            gameLogic.infoIconThree.SetActive(true);
+            gameLogic.infoIconFour.SetActive(true);
+            gameLogic.infoIconFive.SetActive(true);
+            gameLogic.infoIconSix.SetActive(true);
+            gameLogic.infoIconSeven.SetActive(true);
+            gameLogic.infoIconEight.SetActive(true);
             gameLogic.infoScreenActive = true;
         }
         else if (id == 2)
@@ -47,6 +55,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(true);
             gameLogic.infoScreenSevenHandle.SetActive(true);
             gameLogic.infoScreenEightHandle.SetActive(true);
+            gameLogic.infoIconOne.SetActive(true);
+            gameLogic.infoIconTwo.SetActive(false);
+            gameLogic.infoIconThree.SetActive(true);
+            gameLogic.infoIconFour.SetActive(true);
+            gameLogic.infoIconFive.SetActive(true);
+            gameLogic.infoIconSix.SetActive(true);
+            gameLogic.infoIconSeven.SetActive(true);
+            gameLogic.infoIconEight.SetActive(true);
             gameLogic.infoScreenActive = true;
         }
         else if (id == 3)
@@ -67,6 +83,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(true);
             gameLogic.infoScreenSevenHandle.SetActive(true);
             gameLogic.infoScreenEightHandle.SetActive(true);
+            gameLogic.infoIconOne.SetActive(true);
+            gameLogic.infoIconTwo.SetActive(true);
+            gameLogic.infoIconThree.SetActive(false);
+            gameLogic.infoIconFour.SetActive(true);
+            gameLogic.infoIconFive.SetActive(true);
+            gameLogic.infoIconSix.SetActive(true);
+            gameLogic.infoIconSeven.SetActive(true);
+            gameLogic.infoIconEight.SetActive(true);
             gameLogic.infoScreenActive = true;
         }
         else if (id == 4)
@@ -87,6 +111,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(true);
             gameLogic.infoScreenSevenHandle.SetActive(true);
             gameLogic.infoScreenEightHandle.SetActive(true);
+            gameLogic.infoIconOne.SetActive(true);
+            gameLogic.infoIconTwo.SetActive(true);
+            gameLogic.infoIconThree.SetActive(true);
+            gameLogic.infoIconFour.SetActive(false);
+            gameLogic.infoIconFive.SetActive(true);
+            gameLogic.infoIconSix.SetActive(true);
+            gameLogic.infoIconSeven.SetActive(true);
+            gameLogic.infoIconEight.SetActive(true);
             gameLogic.infoScreenActive = true;
         }
         else if (id == 5)
@@ -107,6 +139,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(true);
             gameLogic.infoScreenSevenHandle.SetActive(true);
             gameLogic.infoScreenEightHandle.SetActive(true);
+            gameLogic.infoIconOne.SetActive(true);
+            gameLogic.infoIconTwo.SetActive(true);
+            gameLogic.infoIconThree.SetActive(true);
+            gameLogic.infoIconFour.SetActive(true);
+            gameLogic.infoIconFive.SetActive(false);
+            gameLogic.infoIconSix.SetActive(true);
+            gameLogic.infoIconSeven.SetActive(true);
+            gameLogic.infoIconEight.SetActive(true);
             gameLogic.infoScreenActive = true;
         }
         else if (id == 6)
@@ -127,6 +167,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(false);
             gameLogic.infoScreenSevenHandle.SetActive(true);
             gameLogic.infoScreenEightHandle.SetActive(true);
+            gameLogic.infoIconOne.SetActive(true);
+            gameLogic.infoIconTwo.SetActive(true);
+            gameLogic.infoIconThree.SetActive(true);
+            gameLogic.infoIconFour.SetActive(true);
+            gameLogic.infoIconFive.SetActive(true);
+            gameLogic.infoIconSix.SetActive(false);
+            gameLogic.infoIconSeven.SetActive(true);
+            gameLogic.infoIconEight.SetActive(true);
             gameLogic.infoScreenActive = true;
         }
         else if (id == 7)
@@ -147,6 +195,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(true);
             gameLogic.infoScreenSevenHandle.SetActive(false);
             gameLogic.infoScreenEightHandle.SetActive(true);
+            gameLogic.infoIconOne.SetActive(true);
+            gameLogic.infoIconTwo.SetActive(true);
+            gameLogic.infoIconThree.SetActive(true);
+            gameLogic.infoIconFour.SetActive(true);
+            gameLogic.infoIconFive.SetActive(true);
+            gameLogic.infoIconSix.SetActive(true);
+            gameLogic.infoIconSeven.SetActive(false);
+            gameLogic.infoIconEight.SetActive(true);
             gameLogic.infoScreenActive = true;
         }
         else if (id == 8)
@@ -167,6 +223,14 @@ public class ExplorerIcons : MonoBehaviour
             gameLogic.infoScreenSixHandle.SetActive(true);
             gameLogic.infoScreenSevenHandle.SetActive(true);
             gameLogic.infoScreenEightHandle.SetActive(false);
+            gameLogic.infoIconOne.SetActive(true);
+            gameLogic.infoIconTwo.SetActive(true);
+            gameLogic.infoIconThree.SetActive(true);
+            gameLogic.infoIconFour.SetActive(true);
+            gameLogic.infoIconFive.SetActive(true);
+            gameLogic.infoIconSix.SetActive(true);
+            gameLogic.infoIconSeven.SetActive(true);
+            gameLogic.infoIconEight.SetActive(false);
             gameLogic.infoScreenActive = true;
         }
     }
@@ -186,6 +250,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenOneHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
             else if (id == 2)
@@ -199,6 +271,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenTwoHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
             else if (id == 3)
@@ -212,6 +292,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenThreeHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
             else if (id == 4)
@@ -225,6 +313,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenFourHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
             else if (id == 5)
@@ -238,6 +334,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenFiveHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
             else if (id == 6)
@@ -251,6 +355,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenSixHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
             else if (id == 7)
@@ -264,6 +376,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenSevenHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
             else if (id == 8)
@@ -277,6 +397,14 @@ public class ExplorerIcons : MonoBehaviour
                 gameLogic.infoScreenSeven.SetActive(false);
                 gameLogic.infoScreenEight.SetActive(false);
                 gameLogic.infoScreenEightHandle.SetActive(true);
+                gameLogic.infoIconOne.SetActive(true);
+                gameLogic.infoIconTwo.SetActive(true);
+                gameLogic.infoIconThree.SetActive(true);
+                gameLogic.infoIconFour.SetActive(true);
+                gameLogic.infoIconFive.SetActive(true);
+                gameLogic.infoIconSix.SetActive(true);
+                gameLogic.infoIconSeven.SetActive(true);
+                gameLogic.infoIconEight.SetActive(true);
                 gameLogic.infoScreenActive = false;
             }
         }
